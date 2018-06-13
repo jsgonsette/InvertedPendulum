@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/X:/GenId/3)%20Projects/201406%20-%20Inverted%20Pendulum/Engineering/Software/PIC33EP128MC202/Sources/Tasks/TaskUartRx.c</file>
+            <file>file:/X:/GenId/3)%20Projects/201406%20-%20Inverted%20Pendulum/Engineering/Software/PIC33EP128MC202/Sources/BSP.c</file>
+            <file>file:/X:/GenId/3)%20Projects/201406%20-%20Inverted%20Pendulum/Engineering/Software/PIC33EP128MC202/Sources/Tools/FastTrigo.h</file>
+            <file>file:/X:/GenId/3)%20Projects/201406%20-%20Inverted%20Pendulum/Engineering/Software/PIC33EP128MC202/Sources/Tasks/TaskUartTx.c</file>
+            <file>file:/X:/GenId/3)%20Projects/201406%20-%20Inverted%20Pendulum/Engineering/Software/PIC33EP128MC202/Sources/Tasks/TaskMain.c</file>
+            <file>file:/X:/GenId/3)%20Projects/201406%20-%20Inverted%20Pendulum/Engineering/Software/PIC33EP128MC202/Sources/Algorithms/Trajectory.c</file>
+            <file>file:/X:/GenId/3)%20Projects/201406%20-%20Inverted%20Pendulum/Engineering/Software/PIC33EP128MC202/Sources/Tasks/Controller.c</file>
+            <file>file:/X:/GenId/3)%20Projects/201406%20-%20Inverted%20Pendulum/Engineering/Software/PIC33EP128MC202/Sources/Tools/FastTrigo.c</file>
+            <file>file:/X:/GenId/3)%20Projects/201406%20-%20Inverted%20Pendulum/Engineering/Software/PIC33EP128MC202/Sources/Tasks/TaskMain.h</file>
+            <file>file:/X:/GenId/3)%20Projects/201406%20-%20Inverted%20Pendulum/Engineering/Software/PIC33EP128MC202/Sources/Algorithms/CtrlJump.c</file>
+            <file>file:/X:/GenId/3)%20Projects/201406%20-%20Inverted%20Pendulum/Engineering/Software/PIC33EP128MC202/Sources/Pendulum.c</file>
+            <file>file:/X:/GenId/3)%20Projects/201406%20-%20Inverted%20Pendulum/Engineering/Software/PIC33EP128MC202/Sources/Main.c</file>
+            <file>file:/X:/GenId/3)%20Projects/201406%20-%20Inverted%20Pendulum/Engineering/Software/PIC33EP128MC202/Sources/Algorithms/CtrlEquilibrium.c</file>
+            <file>file:/X:/GenId/3)%20Projects/201406%20-%20Inverted%20Pendulum/Engineering/Software/PIC33EP128MC202/Sources/Algorithms/KalmanFree.c</file>
+        </group>
+    </open-files>
+</project-private>
