@@ -2,7 +2,7 @@
 
 **Wanna build an inverted pendulum ?** Like in this video :
 
-[![PCB](../pictures/GifMovie.gif)](https://www.youtube.com/watch?v=6xe19XnX5L0&t=20s)
+[![PCB](./pictures/GifMovie.gif)](https://www.youtube.com/watch?v=6xe19XnX5L0&t=20s)
 
 
 you are in the right place. All what you need to known to get an incredible pendulum that jumps and balances is available here. I describe:
@@ -19,7 +19,7 @@ If you understand french, the long way explanation can be found [on my blog](htt
 
 ## How to make the electronic board
 
-![PCB](../pictures/PCB.png)
+![PCB](./pictures/PCB.png)
 
 ### Get the BOM
 First, you need all the electronic components on this [BOM list](./Electronic/BOM.xlsx). This kind of components can be found on different sites like:
@@ -47,7 +47,7 @@ You have two options for those ones:
 
 ## How to make the shell
 
-![PCB](../pictures/Shell.png)
+![PCB](./pictures/Shell.png)
 
 The shell of the pendulum is composed of three pieces, whose plans are given by the three STEP files in this [directory](./Mecanic/Shell)
 
@@ -60,7 +60,7 @@ They have to be 3D printed. You can do it yourself in you have access to a 3D pr
 
 ## How to get the other components
 
-![PCB](../pictures/Inventory.png)
+![PCB](./pictures/Inventory.png)
 
 Some additional parts are still needed before mounting all the parts together.
 
