@@ -71,8 +71,8 @@ Some additional parts are still needed before getting a functional pendulum.
 * Three screws to attache the motor in the shell. Check this [Assembly BOM](Assembly%20BOM.xlsx).
 * The cable to connect the PCB to the battery. You have to assemble it yourself. Check this [Cables BOM](./Mecanic/Cables%20BOM.xlsx).
 * The cable to connect the pendulum to the PIC microcontroller programmer. You have to assemble it yourself. Check this [Cables BOM](./Mecanic/Cables%20BOM.xlsx).
-* A Lipo charger. Personnaly, I'm very pleased with this charger.
-* A Microchip programmation device like the [PICkit 3](https://www.microchip.com/Developmenttools/ProductDetails/PG164130), availabe on Farnell, for example.
+* A Lipo charger. Personnaly, I'm very pleased with the [Graupner UltraMat 14 plus](https://www.graupner.de/mediaroot/files/6464_Ultramat_14_plus_de_en_fr_it.pdf) but there are many other ones.
+* A Microchip programmation device like the [PICkit 3](https://www.microchip.com/Developmenttools/ProductDetails/PG164130) or the [ICD 3](https://www.microchip.com/Developmenttools/ProductDetails/DV164035), availabe on Farnell, for example.
 * (optional) The cable to connect the pendulum to a serial cable. You have to assemble it yourself. Check this [Cables BOM](./Mecanic/Cables%20BOM.xlsx).
 * (optional) a USB - Serial cable
 
@@ -90,7 +90,7 @@ The brain of the pendulum is a small Microchip 16bits µC. You must load the rig
 * (1) In the *device family* field, select **16-bit DSCs (dsPIC33)**
 * (2) In the *device* field, select **dsPIC33EP128MC202**
 * (3) Ensure the *tool* field displays the name of your chip programmer correctly
-* (4) In the source field, browse your computer to select the **iPendulum.hex** firmware, available here
+* (4) In the source field, browse your computer to select the **iPendulum.hex** firmware, available [here](./Software/Binaries/Firmware/iPendulum.hex)
 * (5) Click on **Connect**
 * (6) Click on **Program** to flash the microcontroller
 * (7) Click on **Verify** to check the microcontroller content
@@ -99,7 +99,23 @@ The brain of the pendulum is a small Microchip 16bits µC. You must load the rig
 
 ### Test your flashed electronic board
 
-(To be continued)
+You can easily check your PCB is fully functional by proceeding as follows:
+
+* Connect the motor to the PCB by inserting its electrical flat ribbon inside the J100 socket, connectors facing down (see picture below)
+* Connect the charged Lipo to the PCB
+* Hold the motor in your hand firmly, but it must be able to turn freely
+* Switch the power button B300 on
+
+If everything is OK, the motor will turn briefly and stop. The red error LED L200 should **NOT** turn on or blink. The meaning of this LED is as follows:
+
+* **Simple** blink: Lipo state of charge too low
+* **Double** blink: Motor not detected
+* **Tripple** blink: Could not intialize the gyro device
+* **Quadruple** blink: Could not initalize the accelerometers device
+
+
+![Integrated Programming Environment](./pictures/MotorConnection.jpg)
+
 
 ## How to connect to the Control Station software
 
