@@ -69,11 +69,11 @@ Some additional parts are still needed before mounting all the parts together.
 * The Lipo battery. The model is not so important, as long as the physical dimensions and the output voltage are respectively: 5x3x1cm and 7.5V. A possible choice can be found [here](https://www.guixmodel.fr/modelisme/accus-et-chargeurs/accus/lipo-2s/accu-lipo-450mah-2s-30c-kryptonium-detail).
 * Three screws to fix the two parts of the shell. Check this [Assembly BOM](Assembly%20BOM.xlsx).
 * Four screws to fix the PCB in the shell. Check this [Assembly BOM](Assembly%20BOM.xlsx).
-* The cable to connect the PCB to the battery. You have to assemble it yourself. Check this [Cables BOM](.Mecanic/Cables%20BOM.xlsx).
-* The cable to connect the pendulum to the PIC microcontroler programmer. You have to assemble it yourself. Check this [Cables BOM](.Mecanic/Cables%20BOM.xlsx)..
+* The cable to connect the PCB to the battery. You have to assemble it yourself. Check this [Cables BOM](./Mecanic/Cables%20BOM.xlsx).
+* The cable to connect the pendulum to the PIC microcontroler programmer. You have to assemble it yourself. Check this [Cables BOM](./Mecanic/Cables%20BOM.xlsx).
 * A Lipo charger. Personnaly, I'm very pleased with this charger.
 * A Microchip programmation device like the [PICkit 3](https://www.microchip.com/Developmenttools/ProductDetails/PG164130), availabe on Farnell, for example.
-* (optional) The cable to connect the pendulum to a serial cable. You have to assemble it yourself. Check this [Cables BOM](.Mecanic/Cables%20BOM.xlsx).
+* (optional) The cable to connect the pendulum to a serial cable. You have to assemble it yourself. Check this [Cables BOM](./Mecanic/Cables%20BOM.xlsx).
 * (optional) a USB - Serial cable
 
 
