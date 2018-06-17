@@ -120,14 +120,15 @@ If everything is OK, the motor will turn briefly and stop. The red error LED L20
 
 ## How to assemble the pendulum
 
-![Pendulum shell](./pictures/Shell.png)
+![Pendulum shell](./pictures/GifAssembly.gif)
 
 * Plug the power cable to the J300 connector on the PCB
 * Use four plastic screws to mount the PCB into the back of the shell
-* Use the three M3 screws to mount the motor into the front of the shell. **Pay attention** to the orientation of the flat ribbon calbe.
-*
+* Use the three M3 screws to mount the motor into the front of the shell. **Pay attention** to the orientation of the flat ribbon cable.
 
 ![Integrated Programming Environment](./pictures/Mount0.jpg)
+
+* Mount the metallic ring around the plastic flywheel hub. It should be reasonably tight. I had to use a clamping vice.
 
 (To be continued)
 
