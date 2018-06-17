@@ -83,7 +83,7 @@ Some additional parts are still needed before getting a functional pendulum.
 The brain of the pendulum is a small Microchip 16bits µC. You must load the right firmware inside to give life to the pendulum.
 
 * Download and install [Microchip MPLAB X](http://microchipdeveloper.com/ipe:installation)
-* Connect your chip programmer (like the PICkit 3 or the ICD 3) to the electonic board with the dedicated cable
+* Connect your chip programmer (like the PICkit 3 or the ICD 3) to the electonic board P200 connector with the dedicated cable
 * Connect your chip programmer to your computer
 * Charge the Lipo battery and connect it to the electronic board
 * Power up the electronic board by switching the power button: the green L301 LED should turn on
@@ -134,11 +134,15 @@ If everything is OK, the motor will turn briefly and stop. The red error LED L20
     * Use a **drill column** for the hole to be **straight**
 * Plug the flywheel on the motor. 
     * **when you push on the flywheel** to get it on the axis, be sure to apply a **vertical force** so as not to **bend the motor**
-    * It should **not** be able to **slip** around the axis: use a bit of strong glue if needed.
+    * The flywheel should **not** be able to **slip** around the axis: use a bit of strong glue if needed.
+* Insert the motor electrical ribbon cable in the PCB connector, connectors facing down.
 
 ![Mounting instructions](./pictures/Mount1.jpg)
 
-(To be continued)
+* Assemble the two parts of the shell together and fix them with the three remaining screws.
+* Put the Lipo battery in place and plug it to the power connector.
+
+<img src="./pictures/Mount2.jpg" width="50%">
 
 
 ## How to connect to the Control Station software
