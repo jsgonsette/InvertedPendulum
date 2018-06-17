@@ -115,7 +115,7 @@ If everything is OK, the motor will turn briefly and stop. The red error LED L20
 * **Quadruple** blink: Could not initalize the accelerometers device
 
 
-![Integrated Programming Environment](./pictures/MotorConnection.jpg)
+![Testing the PCB](./pictures/MotorConnection.jpg)
 
 
 ## How to assemble the pendulum
@@ -126,9 +126,17 @@ If everything is OK, the motor will turn briefly and stop. The red error LED L20
 * Use four plastic screws to mount the PCB into the back of the shell
 * Use the three M3 screws to mount the motor into the front of the shell. **Pay attention** to the orientation of the flat ribbon cable.
 
-![Integrated Programming Environment](./pictures/Mount0.jpg)
+![Mounting instructions](./pictures/Mount0.jpg)
 
 * Mount the metallic ring around the plastic flywheel hub. It should be reasonably tight. I had to use a clamping vice.
+* Drill a 4mm hole through the axis of rotation of the flywheel hub. 
+    * **Test your drill bit** in a stuck of wood before.
+    * Use a **drill column** for the hole to be **straight**
+* Plug the flywheel on the motor. 
+    * **when you push on the flywheel** to get it on the axis, be sure to apply a **vertical force** so as not to **bend the motor**
+    * It should **not** be able to **slip** around the axis: use a bit of strong glue if needed.
+
+![Mounting instructions](./pictures/Mount1.jpg)
 
 (To be continued)
 
