@@ -11,6 +11,7 @@ you are in the right place. All what you need to known to get an incredible pend
 * how to make the *shell*
 * how to get the *other components*
 * how to program the *firmware*
+* how to *assemble* the pendulum
 * how to connect to the *Control Station software*
 
 If you understand french, the long way explanation can be found [on my blog](https://jsgonsette.github.io/). Otherwise, keep reading.
@@ -115,6 +116,20 @@ If everything is OK, the motor will turn briefly and stop. The red error LED L20
 
 
 ![Integrated Programming Environment](./pictures/MotorConnection.jpg)
+
+
+## How to assemble the pendulum
+
+![Pendulum shell](./pictures/Shell.png)
+
+* Plug the power cable to the J300 connector on the PCB
+* Use four plastic screws to mount the PCB into the back of the shell
+* Use the three M3 screws to mount the motor into the front of the shell. **Pay attention** to the orientation of the flat ribbon calbe.
+*
+
+![Integrated Programming Environment](./pictures/Mount0.jpg)
+
+(To be continued)
 
 
 ## How to connect to the Control Station software
