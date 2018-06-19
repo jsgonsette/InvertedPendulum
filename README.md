@@ -13,6 +13,7 @@ you are in the right place. All what you need to known to get an incredible pend
 * how to program the *firmware*
 * how to *assemble* the pendulum
 * how to connect to the *Control Station software*
+* how to *calibrate* the sensors
 
 If you understand french, the long way explanation can be found [on my blog](https://jsgonsette.github.io/). Otherwise, keep reading.
 
@@ -152,11 +153,11 @@ The [Control Station](./Software/Binaries/ControlStation/iPendulumCS.exe) is a s
 * Connect a USB-Serial cable to your computer
 * Connect the adapter cable to the USB-Serial cable and to the pendulum
 * Launche the Control Station Software
-* Select the menu `Tools->Connect`
+* Select the menu `Tools->Connect to iPendulum`
 * Selecting the COM port corresponding to your USB-Serial cable
 * Power on the pendulum
 
-You should get to something like this picture:
+You should get to something like on this picture:
 
 ![Mounting instructions](./pictures/CSNotConnected.png)
 
@@ -167,3 +168,17 @@ The panel on the left let you see all the different variables of the running fir
 A thumb in the bottom of the screen makes the view switch to different graphs showing all the telemetries. They correspond to the different sensors measured on the pendulum.
 
 ![Connection to the pendulum](./pictures/GifConnectCS.gif)
+
+
+
+## How to calibrate the sensors
+
+Calibration of the pendulum is saved in the flash memory of the microcontroller where it survives even when the pendulum is switech off. The Control Station software helps you to calibrate:
+
+* The measured voltage of the Lipo: `Tools->Calibration->Battery`
+* The measured angle of the pendulum `Tools->Calibration->IMU`
+
+Battery voltage calibration only ask you to enter the real voltage of the Lipo, measured with a voltmeter. For the IMU, the software will ask you to put the pendulum in a succession of different positions. Just follow the instructions until the end of the procedure.
+
+You can check the result of this calibration by posing the pendulum on its right of left side, on a flat table, and by checking in the interface that the angle is close to +45° and -45°. This measure can be seen on `State estimation` field of the left panel.
+
