@@ -147,6 +147,23 @@ If everything is OK, the motor will turn briefly and stop. The red error LED L20
 
 ## How to connect to the Control Station software
 
-The Control Station is a small program written in C# (tested on Windows only) enabling to connect to the pendulum through a serial connection.
+The [Control Station](./Software/Binaries/ControlStation/iPendulumCS.exe) is a small program written in C# (tested on Windows only) enabling to connect to the pendulum through a serial connection. 
 
-(To be continued)
+* Connect a USB-Serial cable to your computer
+* Connect the adapter cable to the USB-Serial cable and to the pendulum
+* Launche the Control Station Software
+* Select the menu `Tools->Connect`
+* Selecting the COM port corresponding to your USB-Serial cable
+* Power on the pendulum
+
+You should get to something like this picture:
+
+![Mounting instructions](./pictures/CSNotConnected.png)
+
+By clicking the `Connect` button, the software testes the communication by sending a request to the pendulum and check the response. If valid, the screen will be displayed in color and the drawing of the pendulum will follow the real pendulum movement.
+
+The panel on the left let you see all the different variables of the running firmware, being related to the OS or to the pendulum sensors.
+
+A thumb in the bottom of the screen makes the view switch to different graphs showing all the telemetries. They correspond to the different sensors measured on the pendulum.
+
+![Connection to the pendulum](./pictures/GifConnectCS.gif)
